@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula 99</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet">
+</head>
+<body class="page">
+    <section class="container__principal">
+        <h1 class="principal__h1">Calcula 99</h1>
+
+        <img class="principal__logo" src="./img/logo99.png">
+
+
+        <p class="principal__descricao">Calcule aqui o valor de suas corridas para nunca mais ser pego de surpresa!</p>
+        
+        <form class="principal__formulario">
+            
+                <h2 class="principal__titulo">Insira a distância da corrida (em km.m): </h2>
+                <input class="input__distancia" id="distancia" type='number' maxlength="5">   
+            
+                <h2 class="principal__titulo">Insira o tempo estimado (horas/minutos): </h2>
+                <input class="input__tempo" id="tempo" type='number'><br>
+          
+                <input id="envia"type="submit" class="formulario__submit" value="Calcular"> 
+            
+        </form>
+
+        <div class="principal__resultado">
+            
+            <p class="valor__final" id="valor"></p>
+        </div>
+
+    
+
+    </section>
+    <script src="./main.js"> </script>
+</body>
+</html>

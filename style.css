@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{
+    --fonte_principal:'Righteous', cursive;
+    --cor_gradiente1: #F98404;
+    --cor_gradiente2: #F7FD04;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(var(--cor_gradiente1), var(--cor_gradiente2));
+    filter: blur(4);
+}
+.principal__h1{
+    font-family: var(--fonte_principal);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container__principal{
+    width: 100vh;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.principal__descricao{
+    font-family: var(--fonte_principal);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+
+.principal__logo{
+    width: 15rem;
+    height: 15rem;
+
+}
+.principal__formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.7rem;
+
+}
+.principal__input{
+    display: inline;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.principal__titulo{
+    display: inline;
+    font-family: var(--fonte_principal);
+    text-align: center;
+    
+}
+
+.input__distancia{
+    display:inline;
+    font-family: var(--fonte_principal);
+    background-color: #F98404;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 3rem;
+    text-align: center;
+}
+
+.principal__texto{
+    display: inline;
+    font-family: var(--fonte_principal);
+    text-align: center;
+}
+
+.input__tempo{
+    
+    font-family: var(--fonte_principal);
+    background-color: #F98404;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 3rem;
+    text-align: center;
+}
+
+.principal__minutagem{
+    margin-left: 12.5rem;
+
+}
+
+.formulario__submit{
+    padding: 0.3rem 2rem;
+    font-family: var(--fonte_principal);
+    background-color: #F98404;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.formulario__submit:hover{
+    cursor: pointer;
+}
+.principal__resultado{
+    display: inline;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.valor__final{
+    display: inline;
+    font-family: var(--fonte_principal);
+    text-align: center;
+    height: 2rem;
+    width:3rem;
+    font-size: 2rem;
+
+}
